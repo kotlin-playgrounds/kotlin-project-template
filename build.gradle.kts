@@ -3,7 +3,7 @@ val junitJupiterVersion by project
 val junitPlatformVersion by project
 
 plugins {
-    kotlin("jvm") version "1.1.51"
+    kotlin("jvm") version "1.2.0"
 }
 
 repositories {
@@ -12,6 +12,9 @@ repositories {
 
 dependencies {
     compile(kotlin("stdlib", "$kotlinVersion"))
+    compile(kotlin("stdlib-jdk7", "$kotlinVersion"))
+    compile(kotlin("stdlib-jdk8", "$kotlinVersion"))
+    compile(kotlin("reflect", "$kotlinVersion"))
 }
 
 dependencies {
