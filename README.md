@@ -27,7 +27,7 @@ fun main(vararg args: String) {
 ~~~kotlin
 package hello
 
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class WorldTest {
