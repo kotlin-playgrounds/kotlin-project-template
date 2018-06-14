@@ -1,6 +1,7 @@
 import org.jetbrains.kotlin.gradle.dsl.Coroutines
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+val gradleWrapperVersion: String by project
 val kotlinVersion: String by project
 val myLibraryVersion by extra { "0.0.0" }
 
@@ -35,8 +36,8 @@ tasks {
         kotlinOptions.jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
-    "wrapper"(Wrapper::class) {
-        gradleVersion = "4.8"
-        distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
+    withType<Wrapper> {
+        gradleVersion = gradleWrapperVersion
+        distributionType = Wrapper.DistributionType.ALL
     }
 }
