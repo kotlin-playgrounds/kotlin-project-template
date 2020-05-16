@@ -1,5 +1,5 @@
 package hello
 
-fun main(vararg args: String) {
+fun main() {
     println("hello world!")
 }

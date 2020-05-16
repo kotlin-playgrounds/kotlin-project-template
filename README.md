@@ -1,5 +1,11 @@
 # kotlin-project-template
 
+**dependency versions:**
+
+- gradle 6.4.1
+- kotlin 1.3.72
+- junit 5.6.2
+
 **run gradle build.**
 
 ~~~sh
@@ -33,7 +39,7 @@ import kotlin.test.assertEquals
 class WorldTest {
 
     @Test
-    fun sample() {
+    fun `2 + 3 equals 5`() {
         assertEquals(5, 2 + 3)
     }
 

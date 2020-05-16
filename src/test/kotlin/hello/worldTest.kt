@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 class WorldTest {
 
     @Test
-    fun sample() {
+    fun `2 + 3 equals 5`() {
         assertEquals(5, 2 + 3)
     }
 
