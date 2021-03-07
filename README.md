@@ -2,9 +2,9 @@
 
 **dependency versions:**
 
-- gradle 6.4.1
-- kotlin 1.3.72
-- junit 5.6.2
+- [kotlin 1.4.31](https://github.com/JetBrains/kotlin/releases/tag/v1.4.31)
+- [gradle 6.8.3](https://github.com/gradle/gradle/releases/tag/v6.8.3)
+- [junit 5.7.1](https://github.com/junit-team/junit5/releases/tag/r5.7.1)
 
 **run gradle build.**
 
