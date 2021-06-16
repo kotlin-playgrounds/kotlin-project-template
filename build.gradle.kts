@@ -6,13 +6,13 @@ val junitVersion: String by project
 val myLibraryVersion by extra { "0.0.0" }
 
 plugins {
-    val kotlinVersion = "1.4.31"
+    val kotlinVersion = "1.5.10"
 
     kotlin("jvm") version kotlinVersion
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
